@@ -167,6 +167,15 @@ img {
     .steps .col {
         width: 100%;
     }
+    
+    .steps {
+        margin: 0;
+    }
+
+    .lessons p,
+    .steps p {
+        margin-bottom: 4rem;
+    }
 
     .why-us .col-left {
         width: 70%;
@@ -179,4 +188,17 @@ img {
         margin: 0 auto;
     }
 
+    .why-us .container {
+        background-color: #222222;
+        padding: 3rem
+    }
+    
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .why-us {
+        margin-bottom: 0;
+    }
 }
