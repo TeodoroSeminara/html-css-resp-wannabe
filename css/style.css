@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -127,3 +128,55 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* media query Tablet 768px */
+
+@media screen and (max-width:768px) {
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+/* media query Smartphone 480px */
+
+@media screen and (max-width:480px) {
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .row {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .col {
+        padding: 0;
+    }
+
+    .lessons .col {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .lessons .col img {
+        max-height: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+    }
+
+    .why-us .col-right {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
